@@ -1,0 +1,31 @@
+:host {
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .text {
+            font-family: "Segoe UI", Arial, sans-serif;
+            font-weight: 400;
+            margin: 10px 0;
+            font-size: 30em;
+            color: darkred;
+        }
+        .button {
+            border: none;
+            display: inline-block;
+            padding: 8px 16px;
+            vertical-align: middle;
+            overflow: hidden;
+            text-decoration: none;
+            text-align: center;
+            cursor: pointer;
+            white-space: nowrap;
+            color: #fff;
+            background-color: #2196f3;
+            height: 200px;
+            width: 500px;
+            font-size: 48px;
+        }
+    }
+}
